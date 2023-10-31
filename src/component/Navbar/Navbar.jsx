@@ -3,7 +3,7 @@ import img from "../../assets/Logo.png"
 
 const Navbar = () => {
     return (
-        <div className="flex justify-between items-center px-8 p-4 hover:bg-red-200">
+        <div className="flex justify-between items-center px-8 p-4 bg-orange-50 hover:bg-red-200">
             <div className="grid grid-cols-2 gap-20">
                 <img src={img} alt="" />
                 <div className="grid grid-cols-4">
