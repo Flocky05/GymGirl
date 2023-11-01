@@ -4,7 +4,7 @@ import img3 from "../../assets/Sparkles.png"
 
 const MoreBeniftits = () => {
     return (
-        <div className="grid grid-cols-2 p-10 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 p-10 items-center">
             <div>
                 <img src={img1} alt="" />
             </div>
