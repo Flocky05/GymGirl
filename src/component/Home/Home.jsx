@@ -4,6 +4,7 @@ import img2 from "../../assets/HomePageGraphic.png"
 import { Link } from "react-router-dom";
 import Sponsor from "../sposor/Sponsor";
 import Benefits from "../Benefits/Benefits";
+import Classes from "../Our_classes/Classes";
 
 const Home = () => {
     return (
@@ -24,6 +25,7 @@ const Home = () => {
             </div>
             <Sponsor></Sponsor>
             <Benefits></Benefits>
+            <Classes></Classes>
         </div>
     );
 };
