@@ -2,8 +2,8 @@
 
 const Footer = () => {
     return (
-        <div>
-            <h2>This is footer section</h2>
+        <div className="p-20 bg-black">
+            <h2 className="text-white text-center"> @Don&apos;t Copy the site </h2>
         </div>
     );
 };
