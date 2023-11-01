@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Sponsor from "../sposor/Sponsor";
 import Benefits from "../Benefits/Benefits";
 import Classes from "../Our_classes/Classes";
+import Contact from "../Contact/Contact";
 
 const Home = () => {
     return (
@@ -26,6 +27,7 @@ const Home = () => {
             <Sponsor></Sponsor>
             <Benefits></Benefits>
             <Classes></Classes>
+            <Contact></Contact>
         </div>
     );
 };
