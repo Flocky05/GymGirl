@@ -6,7 +6,7 @@ const Contact = () => {
         <div className="p-20">
             <h2 className="text-3xl font-bold uppercase py-4"> <span className="text-pink-500">Join now </span> to get in shape</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis doloremque modi, voluptate aut quis quisquam tempora incidunt laudantium obcaecati repellendus voluptatibus tempore esse quas eveniet unde recusandae. Consequatur, inventore laudantium?</p>
-            <div className="grid grid-cols-2 justify-items-center mt-20">
+            <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center mt-20">
                 <form action="">
                     <input type="text" placeholder="Name" className="bg-red-200 py-2 rounded-md w-3/5 p-2 mt-4"/>
                     <input type="text" placeholder="Email" className="bg-red-200 py-2 rounded-md w-3/5 my-3 p-2"/>
