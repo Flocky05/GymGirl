@@ -7,9 +7,9 @@ const Sponsor = () => {
         <div>
             <h2 className="text-center text-3xl font-bold p-4">Some <span className="text-pink-500">SponsorShip</span> with Us</h2>
             <div className="grid grid-cols-3 justify-items-center p-20 bg-pink-200">
-                <img src={img1} alt="" />
-                <img src={img2} alt="" />
-                <img src={img3} alt="" />
+                <img className="w-20 lg:w-28" src={img1} alt="" />
+                <img className="w-20 lg:w-28" src={img2} alt="" />
+                <img className="w-20 lg:w-28" src={img3} alt="" />
             </div>
         </div>
     );
